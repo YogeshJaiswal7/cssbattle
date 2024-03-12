@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding:0%;
+    width: 100%;
+    height:100vh;
+}
+.container{
+    background-image:url('bc.jpg') ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.outerlap{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: lightslategrey;
+    height: 400px;
+    width: 600px;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+.uperblock{
+    display: flex;
+    justify-content: space-between;
+}
+.four{
+    color:darkmagenta;    
+}
+.secondlap{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.message{
+    height: 100px;
+    width: 350px;
+}
+.button{
+    background-color: darkmagenta;
+    color: white;
+    height:30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+h1{
+    color: darkmagenta;
+}
+.head{
+    font-size: large;
+    font-weight: bold;
+    color: darkmagenta;
+}
+img{
+    border-radius: 20px;
+}
